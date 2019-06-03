@@ -1,0 +1,340 @@
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, button,section {
+	box-sizing: border-box;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+ h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.45em;
+}
+
+p {
+	margin: 0;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a {
+	transition: all 0.5s ease;
+}
+
+.fantasy__connect:active {
+	color: chartreuse;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.header {
+	background: rgba(74,125,252,1);
+	background: -moz-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(15,63,184,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(74,125,252,1)), color-stop(100%, rgba(15,63,184,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(15,63,184,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(15,63,184,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(74,125,252,1) 0%, rgba(15,63,184,1) 100%);
+	background: linear-gradient(135deg, rgba(74,125,252,1) 0%, rgba(15,63,184,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a7dfc', endColorstr='#0f3fb8', GradientType=1 );
+	padding-top: 70px;
+	padding-bottom: 65px;
+	color: #fff;
+}
+
+.header__logo {
+	text-align: center;
+}
+
+h1 {
+	font-size: 29px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	padding-top: 176px;
+}
+
+h2 {
+	text-align: center;
+	color: #0e1b3e;
+	font-size: 26px;
+}
+
+.header__text {
+	text-align: center;
+	 padding-bottom: 24px;
+}
+
+.header__button {
+	display: block;
+	position: relative;
+	width: 218px;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 auto;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 20px 30px 18px 30px;
+	border-radius: 50px;
+	transition: 0.3s;
+}
+
+.header__button:hover {
+	background: #fff;
+	border: 1px solid #2d63eb;
+	color: #06319e;
+}
+
+.header__arrow {
+	display: block;
+	text-align: center;
+	margin-top: 165px;
+}
+
+.about {
+    padding: 102px 0 0 0;
+}
+
+.about__wrap {
+	width: 839px;
+}
+
+.mission {
+	display: block;
+	color: #303852;
+	width: 470px;
+}
+
+.mission__title {
+	color: #0e1b3e;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 71px 0 25px 0;
+	text-transform: uppercase;
+}
+
+.mission__title::after {
+	content: " ";
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 6px;
+	background: #2d63eb;
+	width: 72px;
+	height: 3px;
+	border-radius: 3px;
+}
+
+.about-me {
+	box-shadow: 0 -55px 55px rgba(14,60,177,1);
+}
+
+.mission__text {
+	font-family: Tahoma;
+	font-size: 15px;
+	font-weight: normal;
+	color: #0e1b3e;
+	margin: 0;
+	font-size: 15px;
+	line-height: 1.6em;
+	letter-spacing: 0.019em;
+	padding-bottom: 1.7em;
+}
+
+.mission__link {
+	color: #0e1b3e;
+	border-bottom: 1px solid #0e1b3e;
+	transition: 0.2s;
+}
+
+.mission__link:hover {
+	color: #2d63eb;
+	border-bottom: 1px solid #2d63eb;
+}
+
+.merits__list {
+	display: block;
+	font-size: 15px;
+	font-weight:normal;
+	color: #303852;
+	width: 300px;
+}
+
+.merits__title {
+	color: #0e1b3e;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 72px 0 39px 0;
+}
+
+.merits__title::after {
+	content: " ";
+	display: block;
+	margin-top: 25px;
+	background: #2d63eb;
+	width: 72px;
+	height: 3px;
+	border-radius: 3px;
+}
+
+.merits__item {
+	padding-bottom: 25px;
+}
+
+.merits__list h4 {
+	padding-bottom: 5px;
+}
+
+.merits__icon {
+	width: 52px;
+	height: 52px;
+	background: #2d63eb url('../img/bug.png') no-repeat center;
+	border-radius: 10px;
+	margin-right: 24px;
+}
+
+.merits__icon_bell {
+	background: #2d63eb url('../img/bell.png') no-repeat center;
+}
+
+.merits__icon_storm {
+	background: #2d63eb url('../img/storm.png') no-repeat center;
+}
+
+.merits__icon_camera {
+	background: #2d63eb url('../img/camera.png') no-repeat center;
+}
+
+/*---------------------------------------*/
+
+.trust {
+	padding: 90px 0 120px 0;
+}
+
+.reasons {
+	justify-content: space-around;
+	width: 878px;
+	 margin: 64px auto 0;
+
+}
+
+.reasons__icon {
+	width: 74px;
+	height: 74px;
+	border: 2px solid #ffa810;
+	border-radius: 50%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 14px;
+	color: #ffa810;
+}
+
+.reasons__icon:hover {
+	background:#ffa810;
+	color: #fff;
+}
+
+.reasons__title {
+	font-size: 16px;
+    padding-top: 12px;
+    color: #0e1b3e;
+	text-align: center;
+	text-transform: none;
+}
+
+/*------------------------------------------*/
+
+
+.fantasy {
+	background: #e6e9f1;
+	text-align: center;
+	padding: 106px 0 112px 0;
+}
+
+.fantasy__item {
+	font-size: 22px;
+	padding-bottom: 11px;
+}
+
+.fantasy__box {
+	width: 406px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.fantasy__text {
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 20px;
+    line-height: 2em;
+}
+
+.fantasy__connect {
+	display: inline-block;
+	width: 225px;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #2d63eb;
+	color: #fff;
+	padding: 20px 30px 20px 30px;
+	border-radius: 50px;
+	transition: 0.2s;
+}
+
+.fantasy__connect:hover {
+	background: #fff;
+	border: 1px solid #2d63eb;
+	color: #06319e;
+}
+
+/*----------------------------------------------*/
+
+.footer {
+	background: #06319e;
+	width: 100%;
+	padding: 48px 0 48px 0;
+}
+
+.footer__list p,a {
+	font-size: 13px;
+	color: #fff;
+}
+
+.footer__policy {
+	border-bottom: 1px dotted #e6e9f1;
+}
+
+.footer__policy:hover {
+	border-bottom: 1px dotted;
+	color: #2d63eb;
+}
